@@ -1,19 +1,18 @@
 import streamlit as st
-import numpy as np 
 import pandas as pd 
 import yagmail
 
 
 yag = yagmail.SMTP('radomator', 'Leboat2021.')
 
-st.title('Wisel Stats Analysis')
+st.title('LeBoat Cluedo 2021 ')
 st.text('')
 
-st.sidebar.text('')
-st.sidebar.title('Analisis')
-st.sidebar.markdown('')
+#st.sidebar.text('')
+#st.sidebar.title('Analisis')
+#st.sidebar.markdown('')
 analysis_type   = st.sidebar.selectbox('Tipo de analisis',['Basico','Enfrentamientos','Rachas','Jugadores','Historico','Plantillas','Otros'],0)
-num_players = st.selectbox('Numero de jugadores',[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],0)
+#num_players = st.selectbox('Numero de jugadores',[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],0)
 
 if num_players == 7:
     st.title('Jugador 1')
@@ -59,5 +58,23 @@ if num_players == 7:
     button_send = st.button('Send')
 
     if button_send:
-        yag.send('angel.isinie@gmail.com','sorteo','heyyyyyy')
+        st.text(df.iloc[1,1])
+
+        # Email 1
+        #yag.send(df.iloc[1,2],'Y tu victima es...', df.iloc[2,1])
+        # Email 1
+        #yag.send('angel.isinie@gmail.com','Y tu victima es...','heyyyyyy')
+        # Email 1
+        #yag.send('angel.isinie@gmail.com','Y tu victima es...','heyyyyyy')
+        # Email 1
+        #yag.send('angel.isinie@gmail.com','Y tu victima es...','heyyyyyy')
+        # Email 1
+        #yag.send('angel.isinie@gmail.com','Y tu victima es...','heyyyyyy')
+        # Email 1
+        #yag.send('angel.isinie@gmail.com','Y tu victima es...','heyyyyyy')
+        # Email 1
+        #yag.send('angel.isinie@gmail.com','Y tu victima es...','heyyyyyy')
+
+
+
 
