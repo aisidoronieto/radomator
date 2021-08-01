@@ -1,4 +1,4 @@
 pandas==0.25.1
 streamlit==0.50.2
 yagmail==0.14.256
-
+Cython==0.29.24
