@@ -72,6 +72,10 @@ if button_send:
     # Email 1
     yag.send(df.iloc[6]['playerEmails'],'Y tu victima es...', df.iloc[0]['playerNames'])
 
-
-
-
+#alvarezalcobaguillermo@gmail.com
+#sandrochinea@gmail.com
+#1992ivandiaz@gmail.com
+#sergioir92@gmail.com
+#chris.godoy.martin@gmail.com
+#alvarofuentesolea@gmail.com
+#angel.isinie@gmail.com
